@@ -30,8 +30,8 @@ In most organisations, recruitment is a complex and time-consuming process, sinc
      - View each candidate's profile summary which includes resume, responses to questions, technical skills, personality traits, video and tone analysis result.
      - Update candidate about selection/rejection, further interview process using one-click mail or phone call
 
-## Video Link
-[Project Demonstration](https://docs.google.com/presentation/d/1L1slU4owXQ5fTBK6zP6kCrpBuiCoABMF/edit?usp=sharing&ouid=105964107564662824667&rtpof=true&sd=true)
+## Presentation of Slides
+[Presentation Link](https://docs.google.com/presentation/d/1L1slU4owXQ5fTBK6zP6kCrpBuiCoABMF/edit?usp=sharing&ouid=105964107564662824667&rtpof=true&sd=true)
 
 ## Installation Guide
 This project requires the following tools to get started:
