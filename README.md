@@ -49,14 +49,14 @@ Also, create an AWS Free Tier account, if you don't have it. Services like Amazo
 ## Getting Started
 
 
-**Step 1. Clone the repository into a new folder and then switch to code directory**
+**Step 1. Clone the repository and then move to the current code directory**
 
 ```
 git clone https://github.com/Harsh2001-btech/Smart-Hire-Bot.git
 cd Smart-Hire-Bot
 ```
 
-**Step 2. Create a Virtual Environment and install Dependencies.**
+**Step 2. Create a Virtual Environment and install all the required pachages and dependencies.**
 
 If you don't have the virtualenv command yet, you can find installation [instructions here](https://virtualenv.readthedocs.io/en/latest/). 
 
@@ -70,9 +70,7 @@ Create a new Virtual Environment for the project and activate it.
 virtualenv env
 env\Scripts\activate
 ```
-Once the virtual environment is activated, the name of your virtual environment will appear on left side of terminal. 
-
-Next, we need to install the project dependencies in this virtual environment, which are listed in `requirements.txt`.
+Once the virtual environment is activated, install the project dependencies in this virtual environment, which are listed in `requirements.txt` file.
 
 ```
 pip install -r requirements.txt
@@ -80,7 +78,6 @@ pip install -r requirements.txt
 For NLP operations, the [resume parser](https://omkarpathak.in/pyresparser/) package uses spacy and nltk. Install them using below commands:
 ```
 python -m spacy download en_core_web_sm
-
 python -m nltk.downloader words
 ```
 
@@ -95,7 +92,7 @@ USE smarthire;
 CREATE TABLE candidates (id int(11) NOT NULL AUTO_INCREMENT, candidatename varchar(50) NOT NULL, email varchar(50) NOT NULL, password varchar(50)NOT NULL, PRIMARY KEY(id));
 ```
 
-![mysql](screenshots/mysql.PNG)
+![mysql](screenshots/sql.PNG)
 
 To look at the candidates table structure, execute
 
